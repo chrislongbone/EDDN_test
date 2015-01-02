@@ -6,7 +6,7 @@ from django.utils.encoding import smart_str, smart_unicode
 import sys
 
 def main():
-	con = mdb.connect('localhost', 'elite_eddn', 'angel111', 'elite_eddn');
+	con = mdb.connect('localhost', 'elite_eddn', 'Ktud8u;v5%ELd6s', 'elite_eddn');
 	context = zmq.Context()
 	subscriber = context.socket(zmq.SUB)
 	subscriber.setsockopt(zmq.SUBSCRIBE, "")
