@@ -1,5 +1,5 @@
 //API docs: http://edstarcoordinator.com/api.html
-                
+       
 var query = {
         ver:2, 
         test:true,
